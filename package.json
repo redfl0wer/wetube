@@ -4,7 +4,7 @@
   "description": "My way to watch videos",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon -L --exec babel-node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/node": "^7.22.5",
-    "@babel/preset-env": "^7.22.5",
+    "@bab/elpreset-env": "^7.22.5",
     "nodemon": "^2.0.22"
   }
 }
