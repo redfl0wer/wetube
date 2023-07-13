@@ -1,0 +1,8 @@
+mixin video(videoInfo)
+    div 
+        h3=videoInfo.title
+        ul 
+            li Rating : #{videoInfo.rating} / 5
+            li #{videoInfo.comments} comments 
+            li #{videoInfo.uploadedAt}
+            li #{videoInfo.views} views
